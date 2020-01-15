@@ -74,6 +74,10 @@ router.delete('/:id',validar, async (req:Request, res:Response):Promise<Response
 
 export default router;
 `;
+
+var readme = `# ${process.argv[3].charAt(0).toUpperCase() + process.argv[3].slice(1)}
+This component represents a ${process.argv[3].charAt(0).toUpperCase() + process.argv[3].slice(1)}
+`
 async function create() {
     await exec(`cd ./src/components && mkdir ${process.argv[3]}`);
     fs.writeFile(`./src/components/${process.argv[3]}/model.ts`,model,(err)=>{
