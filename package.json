@@ -1,0 +1,14 @@
+{
+  "name": "ducen-cli",
+  "version": "1.0.0",
+  "description": "Prueba de paquete",
+  "bin": {
+    "ducen-cli" : "./src/index.js"
+  },
+  "scripts": {
+    "start": "node ./src/cli.js"
+  },
+  "keywords": [],
+  "author": "Ducen",
+  "license": "ISC"
+}
