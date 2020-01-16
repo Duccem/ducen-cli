@@ -3,12 +3,16 @@
   "version": "1.0.0",
   "description": "Prueba de paquete",
   "bin": {
-    "ducen-cli" : "./src/index.js"
+    "ducen-cli": "./src/index.js"
   },
   "scripts": {
     "start": "node ./src/cli.js"
   },
   "keywords": [],
   "author": "Ducen",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "inquirer": "^7.0.3"
+  }
 }
